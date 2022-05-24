@@ -42,6 +42,13 @@ header p {
 
 }
 
+header a:hover{
+    text-decoration: underline rebeccapurple;
+    font-size: 120%;
+    transition: 0.5s;
+
+}
+
 
 .ulNav {
     display: flex;
