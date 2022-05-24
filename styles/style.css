@@ -116,9 +116,6 @@ header p {
     }
     #skillAndPres img {
         max-width: 250px;
-        grid-column: auto;
-        grid-row: auto;
-        order: -1;
     }
 }
 
