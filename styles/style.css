@@ -109,6 +109,17 @@ header p {
     #skillAndPres {
         grid-template-columns: 1fr;
     }
+    #skillAndPres img, h2{
+        display: grid;
+        margin: auto;
+        text-align: center;
+    }
+    #skillAndPres img {
+        max-width: 250px;
+        grid-column: auto;
+        grid-row: auto;
+        order: -1;
+    }
 }
 
 #ulSkills {
