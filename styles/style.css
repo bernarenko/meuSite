@@ -87,3 +87,19 @@ header p {
     padding-left: 10%;
 
 }
+
+#skillAndPres {
+
+}
+
+#ulSkills {
+    color: white;
+    margin-left: 20px;
+}
+
+#ulSkills li{
+    display: inline-block;
+    background-color: tomato;
+    padding: 5px 10px 5px 10px;
+
+}
