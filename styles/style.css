@@ -27,6 +27,7 @@ h1 {
 
 h2 {
     margin: 0px;
+    padding-top: 50px;
     font-family: Zen Maru Gothic, Helvetica, sans-serif;
 }
 
@@ -56,13 +57,28 @@ header p {
     margin-bottom: 10px;
 }
 
+.redesSociais {
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
 .redesSociais img {
     max-width: 50px;
+    padding: 5px;
 
 }
 #pFrontEnd {
     display: block;
 }
 #introText {
+    color: white;
     max-width: 600px;
+}
+
+#faceScreen {
+    background-color: rgb(30, 35, 35);
+
 }
