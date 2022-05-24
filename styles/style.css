@@ -21,7 +21,7 @@ header {
 h1 {
     margin: 0px;
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 a {
@@ -30,12 +30,12 @@ a {
 }
 
 header p {
-    font-size: 1em;
+    font-size: 0.8em;
 
 }
 
 
-.navHeader {
+.ulNav {
     display: flex;
     padding: 20px;
     justify-content: space-around;
