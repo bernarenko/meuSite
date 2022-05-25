@@ -5,7 +5,7 @@
     src: url(fonts/Muli-);
 }
 
-body, ul, li, p {
+body, ul, li, p, h3{
     font-family: arial;
     font-size: 1.2em;
     list-style: none;
@@ -34,6 +34,10 @@ h2 {
     font-size: 2em;
     margin: 0px;
     padding-top: 150px;
+}
+
+h3 {
+    color: white;
 }
 
 a {
@@ -81,7 +85,22 @@ header a:hover{
 }
 
 .flexFooter {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 15px;
+}
 
+.flexFooter div {
+    flex: 1 1 200px;
+    margin: 10px;
+
+}
+
+.footerImg {
+    max-width: 64px;
 }
 
 #pFrontEnd {
@@ -168,6 +187,23 @@ header a:hover{
     text-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
 }
 
-#contentFooter p{
+#contentFooter {
+    background-color: rgb(30, 35, 35);
+}
+
+#contentFooter p, img{
+    padding: 5px;
+    margin-top: 10px;
+    display: inline-block;
     color: whitesmoke;
+}
+
+#txtFooter {
+    font-size: 0.8em;
+    max-width: 150px;
+}
+
+
+#contentFooter h3 {
+    color: tomato;
 }
