@@ -1,0 +1,47 @@
+.ulNav {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.intro {
+    background-color: rgb(30, 35, 35);
+    color: white;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: space-between;
+    max-width: 200px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.redesSociais img {
+    margin-left: -5px;
+    max-width: 50px;
+    padding: 5px;
+}
+
+.flexFooter {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    margin-top: 80px;
+    padding-top: 15px;
+}
+
+.flexFooter div {
+    flex: 1 1 200px;
+    margin: 10px;
+
+}
+
+.footerImg {
+    max-width: 64px;
+}

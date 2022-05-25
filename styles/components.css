@@ -1,0 +1,36 @@
+header {
+    background-color: rgb(30, 35, 35);
+    color: whitesmoke;
+}
+
+h1 {
+    font-size: 1.3em;
+    margin: 0px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Zen Maru Gothic, Helvetica, sans-serif;
+    font-size: 2em;
+    margin: 0px;
+    padding-top: 150px;
+}
+
+h3 {
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header p {
+    font-size: 0.8em;
+}
+
+header a:hover{
+    font-size: 120%;
+    text-decoration: underline rebeccapurple;
+    transition: 0.5s;
+}
