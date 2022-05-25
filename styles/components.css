@@ -1,9 +1,16 @@
 header {
+    padding-top: 20px;
     background-color: rgb(30, 35, 35);
     color: whitesmoke;
 }
 
+header p {
+    margin-top: 5px;
+    font-size: 0.8em;
+}
+
 h1 {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 1.3em;
     margin: 0px;
     text-align: center;
@@ -25,9 +32,7 @@ a {
     text-decoration: none;
 }
 
-header p {
-    font-size: 0.8em;
-}
+
 
 header a:hover{
     font-size: 120%;
