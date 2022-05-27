@@ -34,6 +34,18 @@
     text-align: center;
     margin-top: 80px;
     padding-top: 15px;
+    background-color: rgb(30, 35, 35);
+}
+
+.flexFooter h3{
+    color: tomato;
+}
+
+.flexFooter p, img{
+    padding: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    color: whitesmoke;
 }
 
 .flexFooter div {
@@ -44,4 +56,33 @@
 
 .footerImg {
     max-width: 64px;
+}
+
+.txtFooter {
+    font-size: 0.8em;
+    max-width: 150px;
+}
+
+.about {
+    margin: 0 auto;
+    align-items: center;
+    max-width: 800px;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.about h2 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+}
+
+.about p {
+    font-family: lindim;
+    text-indent: 2em;
+    text-align: justify;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
 }
