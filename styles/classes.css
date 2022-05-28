@@ -32,7 +32,6 @@
     flex-wrap: wrap;
     margin: auto;
     text-align: center;
-    margin-top: 80px;
     padding-top: 15px;
     background-color: rgb(30, 35, 35);
 }
@@ -85,4 +84,13 @@
     text-align: justify;
     margin-bottom: 20px;
     text-shadow: 1px 1px 2px rgb(0 0 0 / 20%);
+}
+
+.mainProjetos {
+    background-color: tomato;
+    height: 100vh;
+}
+
+.projetoFlex {
+    
 }
